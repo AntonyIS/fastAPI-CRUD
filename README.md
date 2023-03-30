@@ -19,16 +19,16 @@ A simple introduction to CRUD using FastAPI
 ```
 
 # Application installation
-## Clone this code using the below command
+** Clone this code using the below command ** 
 ```git clone https://github.com/AntonyIS/fastAPI-CRUD.git```
-## Navigate to the working directory
+** Navigate to the working directory ** 
 ```cd fastAPI-CRUD```
-## Create virtual environment
+** Create virtual environment ** 
 ```python3 -m venv env```
-## Activate virtual env 
+** Activate virtual env ** 
 ```source env/bin/activate```
-## Install dependancies e.i FastAPI and others
+** Install dependancies e.i FastAPI and others ** 
 ```pip install fastapi```
 ```pip install "uvicorn[standard]" ```
-## Run the API
+** Run the API ** 
 ```make serve```
