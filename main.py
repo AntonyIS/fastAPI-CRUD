@@ -1,22 +1,24 @@
 from typing import Union
 from fastapi import FastAPI
-
+from model import Book, session
 
 # Initialize FastAPI App
 app = FastAPI()
 
 @app.get("/books")
 def read_books():
-    return {
-        "books" : "read books"
-    }
+    book = Book()
+    session.add(book)
+    session.commit()
+
+    return {"books" : "read books"}, 200
 
 
 @app.get("/books")
 def post_books():
-    return {
-        "books" : "post a book"
-    } 
+    book_query = session.query(Book)
+    return book_query.all(), 200
+    
 
 
 @app.get("/books/{book_id}")
