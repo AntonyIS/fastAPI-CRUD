@@ -20,9 +20,9 @@ A simple introduction to CRUD using FastAPI
 
 # Application installation
 * **Clone this code using the below command** 
-```git clone https://github.com/AntonyIS/fastAPI-CRUD.git```
+```git clone https://github.com/AntonyIS/fastAPI-CRUD.git```\
 * **Navigate to the working directory** 
-```cd fastAPI-CRUD```
+```cd fastAPI-CRUD``` \
 * **Create virtual environment** 
 ```python3 -m venv env```
 * **Activate virtual env** 
